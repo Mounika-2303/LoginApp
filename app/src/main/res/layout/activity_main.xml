@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFB6C1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:autofillHints="username"
+            android:contentDescription="Username field"
+            android:gravity="center"
+            android:hint="Enter Username"
+            android:importantForAutofill="yes"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#286633" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints="password"
+            android:contentDescription="Password field"
+            android:gravity="center"
+            android:hint="Enter Password"
+            android:importantForAutofill="yes"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#666666" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Login button"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Login" />
+    </LinearLayout>
+</ScrollView>
